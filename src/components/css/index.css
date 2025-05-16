@@ -1,0 +1,21 @@
+:root {
+  /*font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('/bg_linkedin.png') no-repeat center center; /* Imposta l'immagine di sfondo */
+  background-size: cover; /* Ridimensiona l'immagine per coprire l'intero sfondo */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden; /* Aggiungi questo per evitare l'overflow orizzontale */
+}

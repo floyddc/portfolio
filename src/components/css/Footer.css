@@ -1,0 +1,136 @@
+.footer {
+    width: 100%;
+    align-self: center;                       
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 21, 21);
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 2;
+    opacity: 90%;  
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;                       
+}
+
+  
+  p {
+    margin: 0;
+  }
+
+  .p1{
+    font-size: 15px;
+    color: #5fbfbb;
+  }
+
+  .p2{
+    font-size: 25px;
+    color: #5fbfbb;
+    margin-left: auto; /* Sposta il testo verso destra */
+  }
+
+  .footer-logo {
+    width: 70px; /* Regola la larghezza dell'immagine a tuo piacimento */
+    height: auto;
+    margin-left: 40px; /* Sposta il logo verso destra */  
+  }  
+
+  .footer-logo:hover {
+    filter: drop-shadow(0 0 2em #5fbfbb);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .footer-logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .divlogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+  }
+
+  .logobutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  .logobutton:hover {
+    background-color: #161a25;
+    transform: scale(1.1); /* Effetto hover per ingrandire leggermente il pulsante */
+  }
+  
+  .logobutton img {
+    width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    height: 100%; /* Assicura che l'immagine non superi l'altezza del contenitore */
+    display: block; /* Rimuove lo spazio extra sotto l'immagine */
+  }
+
+  .powered-by {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center; /* Centra il contenitore "Powered by" */
+  }
+
+@media (max-width: 1140px) {
+  .footer {
+      flex-direction: column; /* Dispone gli elementi in colonna */
+      align-items: center; /* Allinea gli elementi al centro */
+      height: auto; /* Altezza automatica per adattarsi al contenuto */
+      margin-top: 10px;
+  }
+
+  .divlogos {
+    margin: 0;
+  }
+
+  .footer-logo{
+    margin-top: 0;
+  }
+
+  .powered-by {
+    margin-left: 0;
+    margin-top: 0p;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .p1 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .p2 {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 60%;
+    height: 60%;
+  }
+}

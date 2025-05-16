@@ -1,0 +1,27 @@
+nav {
+  height: 155px;
+  background: rgb(22, 21, 21);
+  opacity: 90%;                      
+  display: flex;
+  justify-content: space-between;
+  align-items: center;              
+  box-sizing: border-box;
+  z-index: 2;
+  align-self: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.logo {                   /*logo sulla navbar*/
+  width: 580px;
+  height: 155px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+}
+
+/* Stile per schermi leggermente più stretti */
+@media (max-width: 1140px) {
+
+
+}

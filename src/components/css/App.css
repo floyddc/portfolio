@@ -1,0 +1,28 @@
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1; /* Fa espandere la parte centrale */
+  padding: 2rem; /* opzionale */
+  border-radius: 12px;
+  background-color: rgb(22, 21, 21);
+  opacity: 60%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}

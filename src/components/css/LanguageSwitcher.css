@@ -1,0 +1,30 @@
+.language-switcher {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Animazione per la rotazione */
+  }
+
+  .flag-ico {
+    width: 48px;
+    height: 48px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .rotate {
+    animation: rotate360 0.5s linear; /* Animazione per la rotazione */
+  }
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg); /* Angolo iniziale */
+    }
+    to {
+      transform: rotate(360deg); /* Angolo finale (una rotazione completa) */
+    }
+  }  
