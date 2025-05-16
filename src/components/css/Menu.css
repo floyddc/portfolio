@@ -17,7 +17,7 @@ ul button {
     padding: 10px 20px;
     display: flex;                  /* Flex container per testo + icona */
     align-items: center;           /* Centra verticalmente */
-    gap: 10px;                     /* Spazio tra testo e icona */
+    gap: 1vh;                     /* Spazio tra testo e icona */
     cursor: pointer;
 }
 
