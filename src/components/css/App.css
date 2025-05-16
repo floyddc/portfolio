@@ -7,10 +7,12 @@
 #root {
   margin: 0 auto;
   text-align: center;
-  min-width: 80vw;
+  min-width: 100vw;
 }
 
 .components {
+  margin-left: 10vw;
+  width: 80%;
   position: relative;
   z-index: 1;
   min-height: 100vh;
@@ -20,10 +22,14 @@
 
 .content {
   flex-grow: 1; /* Fa espandere la parte centrale */
-  padding: 2rem; /* opzionale */
+  padding: 2vw; /* opzionale */
   border-radius: 12px;
-  background-color: rgb(22, 21, 21);
-  opacity: 60%;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  background-color: rgb(22, 21, 21, 0.6);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.backbuttonDiv {
+  width: 100%;
+  display: flex;
 }

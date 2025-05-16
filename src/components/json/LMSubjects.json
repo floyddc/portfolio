@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "text": "LCMC",
+        "link": "https://drive.google.com/drive/folders/1r7EJECB3-xeK_CAyHdrs2KINIMGARHSd?usp=sharing",
+        "prof": "Mario Bravetti",
+        "year": "1",
+        "icon": "/ai.ico",
+        "type": "M"
+    },    
+    {
+        "id": 2,
+        "text": "Machine Learning",
+        "link": "https://drive.google.com/drive/folders/1tjZ7zILpdAZ_MLy8MAGGK0bo2mTGE_6r?usp=sharing",
+        "prof": "Davide Maltoni",
+        "year": "1",
+        "icon": "/ai.ico",
+        "type": "M"
+    },
+    {
+        "id": 3,
+        "text": "Sistemi Informativi",
+        "link": "https://drive.google.com/drive/folders/1Nm9SUANmJf-Lc0KTkDrU5V9EWY9f7cC3?usp=sharing",
+        "prof": "Matteo Golfarelli",
+        "year": "1",
+        "icon": "/page.ico",
+        "type": "M"
+    },
+    {
+        "id": 4,
+        "text": "Distributed Systems",
+        "link": "#",
+        "prof": "Andrea Omicini",
+        "year": "1",
+        "icon": "/computer.ico",
+        "type": "M"
+    },
+    {
+        "id": 5,
+        "text": "Cybersecurity",
+        "link": "#",
+        "prof": "Gabriele D'Angelo",
+        "year": "1",
+        "icon": "/cybersecurity.ico",
+        "type": "M"
+    },
+
+    {
+        "id": 6,
+        "text": "Paradigmi di Programm. e Sviluppo",
+        "link": "https://drive.google.com/drive/folders/1lgd7yXA4dgqjXfBZSLDj5Hz2duuvSKBo?usp=drive_link",
+        "prof": "Mirko Viroli",
+        "year": "1",
+        "icon": "/computer.ico",
+        "type": "M"
+    },
+    {
+        "id": 7,
+        "text": "Programmazione Conc. e Distr.",
+        "link": "https://drive.google.com/drive/folders/1d1BL4NV2vcdHNdltFEZt6lEj6Fjak-U_?usp=drive_link",
+        "prof": "Alessandro Ricci",
+        "year": "1",
+        "icon": "/computer.ico",
+        "type": "M"
+    }
+]

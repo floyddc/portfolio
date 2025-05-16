@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "text": "Tesi di Laurea",
+        "link": "https://drive.google.com/drive/folders/1g9bhdQDEvYHQD5Xm4yCAWLnPDheG7CE_?usp=sharing",
+        "prof": "Luigi Patrono",
+        "year": "3",
+        "icon": "/computer.ico",
+        "type": "T"      
+    },
+    {
+        "id": 2,
+        "text": "Analisi I",
+        "link": "https://drive.google.com/drive/folders/1wDc-NU-XFdRqk595aZxPq6zUp5eTNj7B?usp=sharing",
+        "prof": "Chiara Spina",
+        "year": "1",
+        "icon": "/math.ico",
+        "type": "T"     
+    },
+    {
+        "id": 3,
+        "text": "Analisi II",
+        "link": "https://drive.google.com/drive/folders/1W8DuEO3dk0v2V6whYsGLAc7NN8w3OWni?usp=sharing",
+        "prof": "Diego Pallara",
+        "year": "2",
+        "icon": "/math.ico",
+        "type": "T"      
+    },
+    {
+        "id": 4,
+        "text": "Geometria e Algebra",
+        "link": "https://drive.google.com/drive/folders/18KeU8TbGY1_71muuvhkwt-QiNTwnN-6z?usp=sharing",
+        "prof": "Salvatore Siciliano",
+        "year": "1",
+        "icon": "/math.ico",
+        "type": "T"       
+    },
+    {
+        "id": 5,
+        "text": "Probabilità e Statistica",
+        "link": "https://drive.google.com/drive/folders/1vZKGCs-4lASd-VvxMT9SeCOJFx1FtNKZ?usp=sharing",
+        "prof": "Mauro Rosestolato",
+        "year": "2",
+        "icon": "/math.ico",
+        "type": "T"      
+    },
+    {
+        "id": 6,
+        "text": "Fisica I",
+        "link": "https://drive.google.com/drive/folders/1R3bvfSYHjaw6Cq74mMl5W7yYBmt-gL9B?usp=sharing",
+        "prof": "Pantaleo Cozzoli",
+        "year": "1",
+        "icon": "/physics.ico",
+        "type": "T"       
+    },
+    {
+        "id": 7,
+        "text": "Fisica II",
+        "link": "https://drive.google.com/drive/folders/1Wg9rVsViunLQTelgeGnI28jlfpLvssXr?usp=sharing",
+        "prof": "Daniele Martello",
+        "year": "2",
+        "icon": "/physics.ico",
+        "type": "T"       
+    },
+    {
+        "id": 8,
+        "text": "Teoria dei Circuiti",
+        "link": "https://drive.google.com/drive/folders/1MNWvVyz8V21_kbALzlNFMPt3pqkx-Id2?usp=sharing",
+        "prof": "Donato Cafagna",
+        "year": "2",
+        "icon": "/physics.ico",
+        "type": "T"       
+    },
+    {
+        "id": 9,
+        "text": "Campi EM",
+        "link": "https://drive.google.com/drive/folders/1l-UpJJgzgFkJwDMKGmMkujy3VsgMjF3d?usp=sharing",
+        "prof": "Luciano Tarricone",
+        "year": "3",
+        "icon": "/physics.ico",
+        "type": "T"       
+    },
+    {
+        "id": 10,
+        "text": "Elettronica Analogica",
+        "link": "https://drive.google.com/drive/folders/1sxxzbabXKb999XuH0mPE4VuHr_-SqbX3?usp=sharing",
+        "prof": "Paolo Visconti",
+        "year": "3",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 11,
+        "text": "Elettronica Digitale",
+        "link": "https://drive.google.com/drive/folders/14TXYUQiXp30_YULxkAyAaTMoBkceCFIS?usp=sharing",
+        "prof": "Paolo Visconti",
+        "year": "3",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 12,
+        "text": "Informatica I",
+        "link": "https://drive.google.com/drive/folders/1YTVR2RG2qq1IQrER__ZUnBQbZw9FTtqo?usp=sharing",
+        "prof": "Italo Epicoco",
+        "year": "1",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 13,
+        "text": "Informatica II",
+        "link": "https://drive.google.com/drive/folders/17TC3Dp7ctfVBwkZeF-QNnPyesXZU-LOy?usp=sharing",
+        "prof": "Luca Mainetti",
+        "year": "2",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 14,
+        "text": "Reti di Calcolatori",
+        "link": "https://drive.google.com/drive/folders/12RF-xKwaKRJD6IYkM1hWUrpODqbJy6AH?usp=sharing",
+        "prof": "Luigi Patrono",
+        "year": "3",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 15,
+        "text": "Calcolatori Elettronici",
+        "link": "https://drive.google.com/drive/folders/1wZ_tX_CevE1mQ5wKcywVk87FCoH-ODym?usp=sharing",
+        "prof": "Valerio De Luca",
+        "year": "3",
+        "icon": "/computer.ico",
+        "type": "T"       
+    },
+    {
+        "id": 16,
+        "text": "Sistemi Operativi",
+        "link": "https://drive.google.com/drive/folders/1LQqioCRk6dosW8_By4rRp-D1qOQLXP0P?usp=sharing",
+        "prof": "Franco Tommasi",
+        "year": "2",
+        "icon": "/computer.ico",
+        "type": "T"     
+    },
+    {
+        "id": 17,
+        "text": "Principi di Ing. Software",
+        "link": "https://drive.google.com/file/d/1pNerwl60c1b_c-MlqSTI-9e0wU8yPB1V/view?usp=sharing",
+        "prof": "Luca Mainetti / Roberto Vergallo",
+        "year": "2",
+        "icon": "/computer.ico",
+        "type": "T"      
+    },
+    {
+        "id": 18,
+        "text": "Informatica Giuridica",
+        "link": "https://drive.google.com/drive/folders/1it8CqfZ_Ww8fQ-tBjK9uaFD2M4CJoiWm?usp=sharing",
+        "prof": "Marco Mancarella",
+        "year": "1",
+        "icon": "/computer.ico",
+        "type": "T"      
+    },
+    {
+        "id": 19,
+        "text": "Segnali e Sistemi",
+        "link": "https://drive.google.com/drive/folders/1vvF_YVQAqyfIwsvwMQsrMPVIZ3ZRmeh5?usp=sharing",
+        "prof": "Giuseppe Ricci",
+        "year": "2",
+        "icon": "/wave.ico",
+        "type": "T"      
+    },
+    {
+        "id": 20,
+        "text": "Fondamenti di Misure",
+        "link": "https://drive.google.com/drive/folders/1SR6LDNqCoyiR4Uz2r3WQPWZCeOtDA1dX?usp=sharing",
+        "prof": "Andrea Cataldo",
+        "year": "3",
+        "icon": "/wave.ico",
+        "type": "T"    
+    },
+    {
+        "id": 21,
+        "text": "Fondamenti di Comunicazioni",
+        "link": "https://drive.google.com/drive/folders/1pY6wJ8PqFRUOxN2Wn5LOtepexQDiHBf4?usp=sharing",
+        "prof": "Francesco Bandiera",
+        "year": "3",
+        "icon": "/wave.ico",
+        "type": "T"     
+    },
+    {
+        "id": 22,
+        "text": "Fondamenti di Automatica",
+        "link": "https://drive.google.com/drive/folders/1XdXMzrTpGSw_ym-hWsAqbylnUT7KRGo9?usp=sharing",
+        "prof": "Gianfranco Parlangeli",
+        "year": "3",
+        "icon": "/wave.ico",
+        "type": "T"     
+    },
+    {
+        "id": 23,
+        "text": "Lab. Chimica Fisica Applicata",
+        "link": "https://drive.google.com/drive/folders/17-nU9-YMpmuGT4mT6TF6ZWbOjVHicYUt?usp=sharing",
+        "prof": "Claudio Mele",
+        "year": "3",
+        "icon": "/physics.ico",
+        "type": "T"     
+    }
+]

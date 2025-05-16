@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "title": "MASTER'S DEGREE",
+      "description": "Engineering and Computer Science - Unibo, Cesena campus",
+      "image": "./unibo_logo.png",
+      "link": "", 
+      "buttontext": "See all",
+      "handleHideCards": 3
+    },
+    {
+      "id": 2,
+      "title": "REQUEST A SERVICE",
+      "description": "Ask me for a job or service!",
+      "image": "./support.jpg",
+      "link": "", 
+      "buttontext": "Text me",
+      "handleHideCards": 2
+    },
+    {
+      "id": 3,
+      "title": "BACHELOR'S DEGREE",
+      "description": "Information Technology Engineering - Unisalento",
+      "image": "./unisalento_logo.png",
+      "link": "", 
+      "buttontext": "See all",
+      "handleHideCards": 1            
+    }
+]  

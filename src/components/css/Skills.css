@@ -1,0 +1,212 @@
+.skills {
+    min-height: auto;   /* altezza minima automatica così da poter permettere lo scorrimento del contenuto centrale*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 0; /* Padding intorno al contenitore */
+    opacity: 90%;
+}
+
+.cmd-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    border-radius: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+    opacity: 0; /* Impostiamo l'opacità iniziale a 0 */
+    transform: translateY(20px); /* Spostiamo la finestra verso il basso di 20px */
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in; /* Aggiungiamo una transizione per l'opacità e la trasformazione */
+}
+
+.cmd-container.show {
+    opacity: 90%; /* Quando la classe "show" viene aggiunta, l'opacità diventa 1, facendo apparire la finestra */
+    transform: translateY(0); /* La finestra torna alla posizione originale */
+}
+
+.cv-button {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center; /* Aggiungi questa linea per centrare il testo orizzontalmente */
+    align-items: center; /* Assicura l'allineamento verticale al centro */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 12px;
+    background-color: rgb(22, 21, 21);
+    color: #5fbfbb;
+    border: 3px solid #5fbfbb;
+}
+
+.cv-button:hover {
+    background-color: #161a25;
+    color: white;
+    border-color: white;
+}
+
+.cmd-toolbar {
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.cmd-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.cmd-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.cmd-button.red {
+    background-color: #ff5f56;
+}
+
+.cmd-button.yellow {
+    background-color: #ffbd2e;
+}
+
+.cmd-button.green {
+    background-color: #27c93f;
+}
+
+.cmd-title {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.cmd-window {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 20px;
+    overflow: auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.cmd-content {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 colonne */
+  grid-template-rows: repeat(2, auto);  /* 2 righe */
+  gap: 1rem;
+  padding: 1rem;
+  justify-items: center;
+}
+
+.skills_button {
+    text-align: left;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border: 3px solid #5fbfbb;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 5px; /* Spaziatura interna */
+    color: #5fbfbb;
+    background-color: rgb(22, 21, 21);
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+.skills_button:hover {
+    background-color: #161a25;
+    color: white;
+    border-color: white;
+    text-decoration: none;
+  }
+
+.skillImg {
+    width: 68px;
+    height: 68px;
+    border: 3px solid #5fbfbb;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+.skillImg:hover {
+  background-color: #161a25;
+  color: white;
+  border-color: white;
+  transform: scale(1.1); /* Effetto hover per ingrandire leggermente il pulsante */
+}
+
+.my-tooltip {
+  background-color: white;        /* Sfondo scuro */
+  color: #ffffff;                   /* Testo chiaro */
+  padding: 8px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #5fbfbb;        /* Colore tema */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  max-width: 200px;
+  z-index: 9999;
+
+}
+
+/* Stile per schermi leggermente più stretti */
+@media (max-width: 1140px) {
+    .skills{
+        padding-top: 10px; /* Padding intorno al contenitore */
+    }
+}
+
+/* Stile per mobile */
+@media (max-width: 768px) {
+    .skills{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cmd-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .cv-button {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .skills_button {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .skillImg {
+        margin: 10px;
+    }
+}

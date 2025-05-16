@@ -1,0 +1,38 @@
+.backbutton {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0 1vh;
+    float: left;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(22, 21, 21);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #5fbfbb;
+    border: 3px solid #5fbfbb;
+    visibility: hidden;
+    opacity: 0; /* Inizia invisibile */
+    transform: translateY(20px); /* Inizia traslato verso il basso */
+    transition: border-color 0.25s, opacity 0.5s ease, transform 0.5s ease; /* Aggiungi le transizioni */
+  }
+
+  .backbutton.show {
+    opacity: 90%; /* Diventa visibile */
+    transform: translateY(0); /* Ritorna alla posizione originale */
+  }
+
+  .backbutton:hover {
+    background-color: #161a25;
+    color: white;
+    border-color: white;
+  }
+
+/* Stile per mobile */
+@media (max-width: 768px) {
+  .backbutton img{
+    width: 30px;
+    height: 30px;
+  }
+}

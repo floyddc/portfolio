@@ -1,0 +1,72 @@
+[
+  {
+    "tooltip": "Pentesting",
+    "src": "pentesting.png",
+    "alt": "Pentesting"
+  },
+  {
+    "tooltip": "Linux",
+    "src": "linux.png",
+    "alt": "Linux"
+  },
+  {
+    "tooltip": "Networking",
+    "src": "network.png",
+    "alt": "Networking"
+  },
+  {
+    "tooltip": "Bash",
+    "src": "bash.png",
+    "alt": "Bash"
+  },
+  {
+    "tooltip": "Java",
+    "src": "java.webp",
+    "alt": "Java"
+  },
+  {
+    "tooltip": "Scala",
+    "src": "scala.png",
+    "alt": "Scala"
+  },
+  {
+    "tooltip": "HTML",
+    "src": "html.png",
+    "alt": "HTML"
+  },
+  {
+    "tooltip": "JavaScript",
+    "src": "javascript.png",
+    "alt": "JavaScript"
+  },
+  {
+    "tooltip": "ReactJS",
+    "src": "react.svg",
+    "alt": "React"
+  },
+  {
+    "tooltip": "C/C++",
+    "src": "c.png",
+    "alt": "C/C++"
+  },
+  {
+    "tooltip": "Python",
+    "src": "python.webp",
+    "alt": "Python"
+  },
+  {
+    "tooltip": "SQL",
+    "src": "sql.png",
+    "alt": "SQL"
+  },
+  {
+    "tooltip": "Artificial Intelligence",
+    "src": "ia.png",
+    "alt": "AI"
+  },
+  {
+    "tooltip": "Digital Management",
+    "src": "digitalmanagement.png",
+    "alt": "Digital Management"
+  }
+]

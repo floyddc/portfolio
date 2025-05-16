@@ -1,5 +1,4 @@
 ul {
-    margin: 0;
     padding: 0;
     list-style-type: none;
     right: 0;
@@ -10,11 +9,11 @@ ul {
 ul button {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
-    background-color: #161a25;
+    background-color: rgb(22, 21, 21);
     color: #5fbfbb;
     border: 3px solid #5fbfbb;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     display: flex;                  /* Flex container per testo + icona */
     align-items: center;           /* Centra verticalmente */
     gap: 1vh;                     /* Spazio tra testo e icona */
