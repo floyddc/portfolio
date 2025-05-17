@@ -8,6 +8,7 @@ import Footer from './components/Footer.jsx';
 import Card from './components/Card.jsx';
 import Skills from './components/Skills.jsx';
 import Timeline from './components/Timeline.jsx';
+import Form from './components/Form.jsx';
 
 function App() {
 
@@ -17,7 +18,6 @@ function App() {
       <div className='components'>
         <Navbar/>
         <div className='content'>
-          <div className='backbuttonDiv'><BackButton/></div>
           {
             data.map((item) => (
               <Card
@@ -26,12 +26,13 @@ function App() {
                 description = {item.description}
                 image = {item.image}
                 link = {item.link} 
-                buttontext = {item.buttontext}
+                buttonImg = {item.buttonImg}
               ></Card>
             ))
           }
           <Skills/>
           <Timeline/>
+          <Form/>
         </div>
         <Footer/>
       </div>     

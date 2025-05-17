@@ -117,45 +117,16 @@
   justify-items: center;
 }
 
-.skills_button {
-    text-align: left;
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 12px;
-    border: 3px solid #5fbfbb;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    display: inline-flex;
-    align-items: center;
-    padding: 5px 5px; /* Spaziatura interna */
-    color: #5fbfbb;
-    background-color: rgb(22, 21, 21);
-    margin-top: 5px;
-    font-size: 20px;
-  }
-  
-.skills_button:hover {
-    background-color: #161a25;
-    color: white;
-    border-color: white;
-    text-decoration: none;
-  }
-
 .skillImg {
-    width: 68px;
-    height: 68px;
-    border: 3px solid #5fbfbb;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 35px;
+    width: 4vw;
+    height: 9vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .skillImg:hover {
-  background-color: #161a25;
   color: white;
   border-color: white;
   transform: scale(1.1); /* Effetto hover per ingrandire leggermente il pulsante */

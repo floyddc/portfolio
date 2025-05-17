@@ -1,0 +1,44 @@
+.contact-selector {
+    display: flex;
+    align-self: center;
+    width: 70%;
+    height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.contact-selector select {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 3px solid #5fbfbb;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(22, 21, 21); /* Colore di sfondo al passaggio del mouse */
+    color: #5fbfbb;
+}
+
+.contact-selector select:hover {
+    background-color: #161a25; /* Colore di sfondo al passaggio del mouse */
+    color: white; /* Colore del testo al passaggio del mouse */
+    border-color: white;
+}
+
+/* Stile per schermi leggermente più stretti */
+@media (max-width: 1140px) {
+    .contact-selector select {
+        width: 70%; /* Aumentiamo la larghezza per riempire meglio lo schermo su dispositivi mobili */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Stile per mobile */
+@media (max-width: 768px) {
+    .contact-selector select {
+        width: 100%; /* Aumentiamo la larghezza per riempire meglio lo schermo su dispositivi mobili */
+    }
+}

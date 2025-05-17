@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './css/Card.css' 
 
-function Card({ title, description, image, link, buttontext, onClick}) {
+function Card({ title, description, image, link, buttonImg, onClick}) {
     return (
         <div className="card">
             <img className="cardimg" src={image} alt='image'/>
@@ -9,7 +9,7 @@ function Card({ title, description, image, link, buttontext, onClick}) {
                 <h2 className="title">{title}</h2>
                 <p className="description">{description}</p>
             </div>
-            <button className="cardbutton">{buttontext}</button>
+            <a href={link}><img src={buttonImg} className='buttonImg'/></a>
         </div>
 
 

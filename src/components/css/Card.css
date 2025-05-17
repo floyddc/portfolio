@@ -5,7 +5,7 @@
   border-radius: 12px;
   background-color: rgb(22, 21, 21, 0.8);
   color: #5fbfbb;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
   transition: transform 0.2s ease-in;
   padding: 1vw;
 }
@@ -16,7 +16,7 @@
 
 .card-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   flex: 1; /* prende tutto lo spazio disponibile */
 }
@@ -28,23 +28,24 @@
 }
 
 .card .description {
+  margin-top: 4vh;
+  margin-left: 1vw;
   text-align: left;
   font-size: medium;
 }
 
-.card .cardbutton {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: large;
+.card .buttonImg {
+  width: 3vw;
+  height: 5vh;
   background-color: rgb(22, 21, 21);
-  color: #5fbfbb;
   border: 3px solid #5fbfbb;
   border-radius: 12px;
-  padding: 2vh 1vw;
+  padding: 1vh;
   cursor: pointer;
 }
 
-.card .cardbutton:hover {
-  color: white;
+.card .buttonImg:hover {
+  background-color: #161a25;
   border: 3px solid white;
 }
 
