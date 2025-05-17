@@ -1,0 +1,38 @@
+[
+    {
+        "title": "MASTER'S DEGREE",
+        "subtitle": "University of Bologna - Cesena campus",
+        "description": "Engineering and Computer Science. Focus on programming techniques, software quality, AI and digital transformation.",
+        "date": "Sep 2024 - now",
+        "icon": "/unibo_logo.png"
+    },
+    {
+        "title": "NETWORKING LESSON",
+        "subtitle": "Unisalento",
+        "description": "Held a networking lesson regarding my degree thesis on the use and potential of Cisco Packet Tracer to build smart homes.",
+        "date": "May 2024",
+        "icon": "/unisalento_logo.png"
+    },
+    {
+        "title": "BACHELOR'S DEGREE",
+        "subtitle": "Unisalento",
+        "description": "Information Technology Engineering. Focus on Computer Science, Electronics and Telecommunication.",
+        "date": "Sep 2020 - Mar 2024",
+        "icon": "/unisalento_logo.png"
+    },
+    {
+        "title": "Erasmus+ ITA team member",
+        "subtitle": "Escola Profesional 'Amar Terra Verde' (Braga) - IISS 'Enrico Fermi' (Lecce)",
+        "description": 
+        "Took part in a European project which involved the programming and remote control of a pair of robotic arms. Used: Python, NodeRED, Firebase, Arduino, Raspberry, G-Code.",
+        "date": "Jan 2020",
+        "icon": "/fermi.jpg"
+    },
+    {
+        "title": "SCHOOL-WORK ALTERNANCE",
+        "subtitle": "Parsec 3.26 Srl",
+        "description": "Tasks performed: secretariat, remote assistance, replacement of PC components, internal network maintenance.",
+        "date": "Jun 2018 - Jul 2018",
+        "icon": "/parsec.png"
+    }
+]

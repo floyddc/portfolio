@@ -7,14 +7,15 @@ import BackButton from './components/BackButton.jsx';
 import Footer from './components/Footer.jsx';
 import Card from './components/Card.jsx';
 import Skills from './components/Skills.jsx';
+import Timeline from './components/Timeline.jsx';
 
 function App() {
 
   return (
     <div className='app-container'>
-      <Particle></Particle>
+      <Particle/>
       <div className='components'>
-        <Navbar></Navbar>
+        <Navbar/>
         <div className='content'>
           <div className='backbuttonDiv'><BackButton/></div>
           {
@@ -29,9 +30,10 @@ function App() {
               ></Card>
             ))
           }
-          <Skills></Skills>
+          <Skills/>
+          <Timeline/>
         </div>
-        <Footer></Footer>
+        <Footer/>
       </div>     
     </div>
   )

@@ -23,8 +23,8 @@
 
 .card .title {
   text-align: left;
-  font-size: xx-large;
-  margin-bottom: 0.5rem;
+  font-size: x-large;
+  margin-bottom: 0.5vh;
 }
 
 .card .description {
@@ -39,12 +39,17 @@
   color: #5fbfbb;
   border: 3px solid #5fbfbb;
   border-radius: 12px;
-  padding: 10px 15px;
+  padding: 2vh 1vw;
   cursor: pointer;
-  margin-left: 2vw;
 }
 
 .card .cardbutton:hover {
   color: white;
   border: 3px solid white;
+}
+
+.card .cardimg {
+  height: 10vh;
+  margin-right: 2vh;
+  border-radius: 100%;
 }

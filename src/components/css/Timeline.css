@@ -1,0 +1,75 @@
+/* Stile per la timeline */
+.vertical-timeline {
+    position: relative;
+    padding: 2rem 0;
+    list-style: none;
+    margin-bottom: 10px !important;
+    opacity: 90%;
+  }
+  
+  /* Stile per gli elementi della timeline */
+  .vertical-timeline-element {
+    position: relative;
+    margin: 2rem 0;
+  }
+  
+  /* Stile per il contenuto degli elementi della timeline */
+  .vertical-timeline-element-content {
+    position: relative;
+    margin-left: 3rem;
+    background: rgb(22,21,21) !important;
+    border-radius: 12px !important;
+    color: #5fbfbb;
+    padding: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stile per la data degli elementi */
+  .vertical-timeline-element-date {
+    text-align: center !important;
+    font-size: 16px !important;/* Modifica qui la dimensione del font */
+    background-color: rgb(22,21,21);
+    border-radius: 12px;
+    width: 80% !important;
+  }ù
+
+  /* Stile per il titolo degli elementi */
+  .vertical-timeline-element-title {
+    text-align: left !important;
+    font-size: 6px !important;/* Modifica qui la dimensione del font */
+    background-color: rgb(22,21,21);
+    border-radius: 12px;
+    width: 80% !important;
+  }
+  
+  /* Stile per l'icona */
+  .vertical-timeline-element-icon {
+    position: absolute;
+    left: -4.5rem;
+    top: 0;
+    background: #e0e0e0;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100% !important;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    box-shadow: none !important;
+  }
+  
+  /* Linea verticale della timeline */
+  .vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+    width: 4px;
+    height: 100%;
+    background: rgb(22,21,21) !important;
+  }
+
+  .erasmus_li {
+    text-align: left;
+  }
+  
