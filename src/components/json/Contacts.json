@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "link": "https://linkedin.com/in/diego-colì-976357218",
+        "title": "LinkedIn",
+        "description": "@diego-coli",
+        "image": "/linkedin.ico"
+    },
+    {
+        "id": 2,
+        "link": "https://instagram.com/floyd_d.c_",
+        "title": "Instagram",
+        "description": "@floyd_d.c_",
+        "image": "/instagram.ico"
+    },
+    {
+        "id": 3,
+        "link": "https://t.me/floyddc22",
+        "title": "Telegram",
+        "description": "@floyddc22",
+        "image": "/telegram.ico"
+    }
+]

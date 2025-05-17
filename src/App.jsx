@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import data from './components/json/Cards.json';
 import './components/css/App.css'
 import Particle from './components/Particle';
 import Navbar from './components/Navbar.jsx';
-import BackButton from './components/BackButton.jsx';
 import Footer from './components/Footer.jsx';
-import Card from './components/Card.jsx';
 import Skills from './components/Skills.jsx';
 import Timeline from './components/Timeline.jsx';
 import Form from './components/Form.jsx';
+import Contacts from './components/Contacts.jsx';
+import Projects from './components/Projects.jsx';
 
 function App() {
 
@@ -18,21 +17,11 @@ function App() {
       <div className='components'>
         <Navbar/>
         <div className='content'>
-          {
-            data.map((item) => (
-              <Card
-                key = {item.id}
-                title = {item.title}
-                description = {item.description}
-                image = {item.image}
-                link = {item.link} 
-                buttonImg = {item.buttonImg}
-              ></Card>
-            ))
-          }
-          <Skills/>
-          <Timeline/>
+          <Projects/>
+          <section id='skills'><Skills/></section>
+          <section id='experiences'><Timeline/></section>
           <Form/>
+          <section id='contacts'><Contacts/></section>
         </div>
         <Footer/>
       </div>     

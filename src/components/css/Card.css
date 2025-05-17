@@ -1,4 +1,7 @@
 .card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center; /* bottone centrato verticalmente */
@@ -7,6 +10,7 @@
   color: #5fbfbb;
   margin-bottom: 2vh;
   transition: transform 0.2s ease-in;
+  animation: slideUpFadeIn 0.3s ease-out;
   padding: 1vw;
 }
 
@@ -28,7 +32,10 @@
 }
 
 .card .description {
-  margin-top: 4vh;
+  background-color: black;
+  border-radius: 12px;
+  padding: 1vh;
+  margin-top: 3vh;
   margin-left: 1vw;
   text-align: left;
   font-size: medium;
@@ -52,5 +59,17 @@
 .card .cardimg {
   height: 10vh;
   margin-right: 2vh;
-  border-radius: 100%;
+  border-radius: 0;
 }
+
+@keyframes slideUpFadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

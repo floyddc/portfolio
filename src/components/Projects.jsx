@@ -1,7 +1,7 @@
-import data from './json/Contacts.json';
+import data from './json/Projects.json';
 import Card from './Card.jsx';
 
-function Contacts() {
+function Projects() {
     return (
         <>
         {
@@ -11,8 +11,8 @@ function Contacts() {
                 title = {item.title}
                 description = {item.description}
                 image = {item.image}
-                link = {item.link}
-                buttonImg= "/link.ico"
+                link = {item.link} 
+                buttonImg = {item.buttonImg}
               ></Card>
             ))
         }
@@ -20,4 +20,4 @@ function Contacts() {
     )
 }
 
-export default Contacts
+export default Projects

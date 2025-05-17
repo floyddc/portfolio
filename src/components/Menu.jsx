@@ -4,13 +4,13 @@ function Menu() {
     return (
         <ul>
             <li>
-                <button>SKILLS<img src='/skills.ico'></img></button>
+                <a href='#skills'><button>SKILLS<img src='/skills.ico'></img></button></a>
             </li>
             <li>
-                <button>EXPERIENCES<img src='/experiences.ico'></img></button>
+                <a href='#experiences'><button>EXPERIENCES<img src='/experiences.ico'></img></button></a>
             </li>
             <li>
-                <button>CONTACTS<img src='/contacts.ico'></img></button>
+                <a href='#contacts'><button>CONTACTS<img src='/contacts.ico'></img></button></a>
             </li>
         </ul>
     )

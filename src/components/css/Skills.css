@@ -1,4 +1,7 @@
 .skills {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     min-height: auto;   /* altezza minima automatica così da poter permettere lo scorrimento del contenuto centrale*/
     display: flex;
     flex-direction: column;
@@ -6,6 +9,18 @@
     flex-grow: 1;
     padding-top: 0; /* Padding intorno al contenitore */
     opacity: 90%;
+    animation: slideUpFadeIn 0.3s ease-out;
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .cmd-container {
