@@ -15,7 +15,7 @@ function Navbar() {
                 <li>
                     <a href='#contacts'><button>CONTACTS<img src='/contacts.ico'></img></button></a>
                 </li>
-        </ul>
+            </ul>
         </nav>
     )
 }
