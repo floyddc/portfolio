@@ -5,7 +5,7 @@
       "description": "Ask me for a job or service!",
       "image": "./support.jpg",
       "link": "", 
-      "buttonImg": "Text me"
+      "buttonImg": "./message.ico"
     },
     {
       "id": 2,
