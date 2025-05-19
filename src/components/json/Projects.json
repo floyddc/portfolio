@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "title": "KALI LINUX CUSTOMIZATION",
+      "title": "CUSTOM KALI LINUX",
       "description": "Try my custom Kali environment!",
       "image": "./kali.png",
       "link": "https://github.com/floyddc/Kali-Customization", 

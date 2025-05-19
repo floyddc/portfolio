@@ -59,7 +59,7 @@
 
 .card .cardimg {
   height: 10vh;
-  margin-right: 2vh;
+  margin-right: 2vw;
   border-radius: 0;
 }
 
@@ -71,6 +71,63 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+/* Stile per schermi leggermente più stretti */
+@media (max-width: 1140px) {
+ .card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2vh 3vw;
+    position: relative;
+  }
+
+  .cardimg {
+    height: 10vh;
+    width: auto;
+    align-self: flex-start;
+  }
+
+  .buttonImg {
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+    min-height: 8vh;
+    min-width: 8vw;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2vw;
+    margin-top: 2vh;
+  }
+
+  .title {
+    font-size: medium;
+    flex: 1;
+  }
+
+  .description {
+    font-size: small;
+    flex: 1;
+    margin: 0;
+    padding: 1vh;
+  }
+}
+
+/* Stile per schermi mobile */
+@media (max-width: 768px){
+  .cardimg {
+    max-height: 8vh;
+  }
+  
+  .buttonImg {
+    min-width: 12vw;
+    min-height: 7vh;
   }
 }
 
