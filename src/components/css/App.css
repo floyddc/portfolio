@@ -33,3 +33,12 @@
   width: 100%;
   display: flex;
 }
+
+/* Stile per schermi leggermente più stretti */
+@media (max-width: 1140px) {
+  .components {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

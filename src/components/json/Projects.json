@@ -3,7 +3,7 @@
       "id": 1,
       "title": "REQUEST A SERVICE",
       "description": "Ask me for a job or service!",
-      "image": "./support.jpg",
+      "image": "./support.png",
       "link": "", 
       "buttonImg": "./message.ico"
     },
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "title": "SCALABLE NMAP",
-      "description": "Try my custom Nmap, fully developed in Scala!",
+      "description": "Try my Nmap software, fully developed in Scala!",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/SCALAbleNmap", 
       "buttonImg": "./github.png"
