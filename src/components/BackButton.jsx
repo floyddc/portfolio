@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './css/BackButton.css';
 
-/*function reloadPage() {                   //funzione per ricaricare la pagina
-  window.location.reload();
-}*/
-
 function BackButton({ onViewChange, setClicked }) {
     const [buttonVisible, setButtonVisible] = useState(false);
 
@@ -18,10 +14,16 @@ function BackButton({ onViewChange, setClicked }) {
                                                                 ovvero quando il componente BackButton.jsx viene montato*/
 
     return (                                                    /*button sarà di classe BackButton.show se buttonVisible è vera*/
-        <button onClick={() => {onViewChange('cards'); setClicked(null);}} className={`backbutton ${buttonVisible ? 'show' : ''}`}> {/*altrimenti rimarrà BackButton*/}
+        <button
+            onClick={() => {
+                setClicked(null);               // resetta clicked
+                onViewChange('home');          // torna alla home
+            }}
+            className={`backbutton ${buttonVisible ? 'show' : ''}`}
+        >
             <img src='/back.ico' alt='back icon' />
         </button>
-    )
+                )
 }
 
 export default BackButton
