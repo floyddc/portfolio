@@ -22,7 +22,7 @@ function App() {
     <div className='app-container'>
       <Particle/>
       <div className='components'>
-        <Navbar/>
+        <Navbar onViewChange={handleViewChange}/>
         <div className='content'>
             {
               view === 'home' && (

@@ -1,23 +1,40 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './css/Navbar.css';
 
-function Navbar() {
+function Navbar({ onViewChange }) {
+    const handleClick = (anchor) => {
+        onViewChange('home'); // Torna alla vista "home"
+        setTimeout(() => {
+            const element = document.querySelector(anchor);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 0); // attende un tick per assicurarsi che 'home' sia renderizzata
+    };
+
     return (
         <nav>
             <img className='logo' src='/logo_orizzontale_trasparente.png' alt='logo' />
             <ul>
                 <li>
-                    <a href='#skills'><button>SKILLS<img src='/skills.ico'></img></button></a>
+                    <button onClick={() => handleClick('#skills')}>
+                        SKILLS <img src='/skills.ico' alt='skills' />
+                    </button>
                 </li>
                 <li>
-                    <a href='#experiences'><button>EXPERIENCES<img src='/experiences.ico'></img></button></a>
+                    <button onClick={() => handleClick('#experiences')}>
+                        EXPERIENCES <img src='/experiences.ico' alt='experiences' />
+                    </button>
                 </li>
                 <li>
-                    <a href='#contacts'><button>CONTACTS<img src='/contacts.ico'></img></button></a>
+                    <button onClick={() => handleClick('#contacts')}>
+                        CONTACTS <img src='/contacts.ico' alt='contacts' />
+                    </button>
                 </li>
             </ul>
         </nav>
-    )
+    );
 }
+
 
 export default Navbar
