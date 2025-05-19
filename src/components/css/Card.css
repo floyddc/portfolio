@@ -12,6 +12,7 @@
   transition: transform 0.2s ease-in;
   animation: slideUpFadeIn 0.3s ease-out;
   padding: 1vw;
+  cursor: pointer;
 }
 
 .card:hover {

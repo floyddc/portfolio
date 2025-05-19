@@ -1,8 +1,8 @@
 import './css/Footer.css'; 
 import reactlogo from '/react.svg';
-import htmllogo from '/html.png';
-import csslogo from '/css.png';
-import jslogo from '/js.png';
+import htmllogo from '/html_footer.ico';
+import csslogo from '/css_footer.ico';
+import jslogo from '/js_footer.ico';
 
 function Footer() {
     return (

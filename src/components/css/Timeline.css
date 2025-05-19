@@ -5,6 +5,7 @@
     list-style: none;
     margin-bottom: 10px !important;
     opacity: 90%;
+    cursor: pointer;
   }
   
   /* Stile per gli elementi della timeline */

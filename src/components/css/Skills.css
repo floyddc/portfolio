@@ -10,6 +10,7 @@
     padding-top: 0; /* Padding intorno al contenitore */
     opacity: 90%;
     animation: slideUpFadeIn 0.3s ease-out;
+    cursor: pointer;
 }
 
 @keyframes slideUpFadeIn {
