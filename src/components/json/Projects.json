@@ -2,7 +2,6 @@
     {
       "id": 1,
       "title": "REQUEST A SERVICE",
-      "description": "Ask me for a job or service!",
       "image": "./support.png",
       "link": "", 
       "buttonImg": "./message.ico"
@@ -10,7 +9,6 @@
     {
       "id": 2,
       "title": "MASTER'S NOTES",
-      "description": "Check out my university material!",
       "image": "./unibo_logo.png",
       "link": "https://drive.google.com/drive/folders/1P1ztyibdG5EcGGYuO-u8zRkmJmOWjjAd?usp=sharing", 
       "buttonImg": "./drive.png"
@@ -18,7 +16,6 @@
     {
       "id": 3,
       "title": "CUSTOM KALI LINUX",
-      "description": "Try my custom Kali environment!",
       "image": "./kali.png",
       "link": "https://github.com/floyddc/Kali-Customization", 
       "buttonImg": "./github.png"
@@ -26,7 +23,6 @@
     {
       "id": 4,
       "title": "SCALABLE NMAP",
-      "description": "Try my Nmap software, fully developed in Scala!",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/SCALAbleNmap", 
       "buttonImg": "./github.png"
