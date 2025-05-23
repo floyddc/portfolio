@@ -18,17 +18,17 @@ function Navbar({ onViewChange }) {
             <ul>
                 <li>
                     <button onClick={() => handleClick('#skills')}>
-                        SKILLS <img src='/skills.ico' alt='skills' />
+                        SKILLS <img src='/skills.ico' alt='skills' className='buttonImgIcon'/>
                     </button>
                 </li>
                 <li>
                     <button onClick={() => handleClick('#experiences')}>
-                        EXPERIENCES <img src='/experiences.ico' alt='experiences' />
+                        EXPERIENCES <img src='/experiences.ico' alt='experiences' className='buttonImgIcon'/>
                     </button>
                 </li>
                 <li>
                     <button onClick={() => handleClick('#contacts')}>
-                        CONTACTS <img src='/contacts.ico' alt='contacts' />
+                        CONTACTS <img src='/contacts.ico' alt='contacts' className='buttonImgIcon'/>
                     </button>
                 </li>
             </ul>

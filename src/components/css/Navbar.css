@@ -46,7 +46,7 @@ li button:hover {
     border: 3px solid white;
 }
 
-.ico {                    /*icone dei pulsanti*/
+.buttonImgIcon {                    /*icone dei pulsanti*/
   margin: 0;
   padding: 0;
 }
@@ -104,6 +104,11 @@ a {
 
   li button {
     font-size: medium;
+    height: 6vh;
+  }
+
+  .buttonImgIcon {
+    height: 100%;
   }
 }
 
