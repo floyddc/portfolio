@@ -27,7 +27,7 @@ ul {
     gap: 0.5vw;               /* Spazio tra voci */
 }
 
-ul button {
+li button {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     background-color: rgb(22, 21, 21);
@@ -41,7 +41,7 @@ ul button {
     cursor: pointer;
 }
 
-ul button:hover {
+li button:hover {
     color: white;
     border: 3px solid white;
 }
@@ -64,7 +64,7 @@ a {
   }
 
   .logo {
-    width: 100%;
+    width: 60%;
     text-align: center;
     margin-bottom: 2vh;
   }
@@ -78,7 +78,7 @@ a {
     margin-bottom: 0;
   }
 
-  ul button {
+  li button {
     width: 100%;                     /* Pulsanti larghi al 100% */
     justify-content: center;
     font-size: medium;
@@ -94,4 +94,16 @@ a {
 /* Stile per mobile */
 @media (max-width: 768px) {
 
+  .logo {
+    width: 90%;
+  }
+
+  li  {
+    width: 90%;
+  }
+
+  li button {
+    font-size: medium;
+  }
 }
+

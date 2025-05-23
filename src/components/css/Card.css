@@ -23,7 +23,7 @@
 
 .cardImg {
   width: 8%;
-  padding: 1%;
+  padding: 2%;
 }
 
 .cardText {
@@ -80,13 +80,6 @@
 
 @media (max-width: 768px) {
 
-  .card .cardimg {
-    height: 7vh;
-  }
-
-  .card .cardText {
-  }
-
   .card .title {
     font-size: medium;
   }
@@ -97,9 +90,7 @@
 
   .card a {
     width: 15%;
-    height: 6vh;
   }
-
 
 
 }

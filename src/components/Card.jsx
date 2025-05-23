@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react';
 import './css/Card.css' 
-
 
 function Card({ title, description, image, link, buttonImg, onClick }) {
 
