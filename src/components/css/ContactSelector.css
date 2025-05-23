@@ -39,6 +39,7 @@
 /* Stile per mobile */
 @media (max-width: 768px) {
     .contact-selector select {
-        width: 100%; /* Aumentiamo la larghezza per riempire meglio lo schermo su dispositivi mobili */
+        width: 100%; 
+        height: 80%;
     }
 }

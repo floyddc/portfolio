@@ -2,7 +2,7 @@
     background-color: none;
     flex-direction: column;
     width: 30vw;
-    min-height: 300px;
+    min-height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1vh;
@@ -28,10 +28,9 @@
 .form input{
     background-color:rgb(223, 216, 216);
     color: rgb(22, 21, 21);
-    font-size: 15px;
+    font-size: medium;
     text-align: center;
-    width: 20vw;
-    height: 5vh;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1vh;
@@ -44,11 +43,10 @@
 .form textarea{
     background-color:rgb(223, 216, 216);
     color: rgb(22, 21, 21);
-    font-size: 15px;
+    font-size: medium;
     text-align: center;
     align-self: center;
-    width: 30vw;
-    height: 10vh;
+    width: 100%;
     margin-bottom: 10px;
     border-radius: 12px;
     border: 3px solid #5fbfbb;
@@ -71,7 +69,7 @@
     color: #5fbfbb;
     background-color: rgb(22, 21, 21);
     margin-top: 5px;
-    font-size: 20px;
+    font-size: medium;
 }
 
 .form button:hover {
@@ -95,7 +93,8 @@
 
 .button img.ico {
     float: right;
-    margin-left: 10px; /* Spazio tra il testo e l'icona */
+    margin-left: 1vw; /* Spazio tra il testo e l'icona */
+    width: 20%;
 }
 
 .invioOK {
@@ -123,16 +122,22 @@
     }
 
     .form input{
-        width: 50%; /* Gli input e il textarea occupano tutta la larghezza disponibile */
+        width: 80%; /* Gli input e il textarea occupano tutta la larghezza disponibile */
         margin-left: auto; /* Margine orizzontale per separare gli elementi */
         margin-right: auto;
+    }
+
+    .form textarea {
+        width: 80%;
     }
 
     .form button , .invioOK{
         width: 50%; /* Aumentiamo la larghezza del bottone per una migliore visibilità */
     }
 
-
+    .button img.ico {
+        width: 5vw;
+    }
 }
 
 /* Stile per mobile */
@@ -147,6 +152,10 @@
         width: 100%; /* Gli input e il textarea occupano tutta la larghezza disponibile */
         margin-left: auto; /* Margine orizzontale per separare gli elementi */
         margin-right: auto;
+    }
+
+    .form textarea {
+        width: 100%;
     }
 
     .form button{
