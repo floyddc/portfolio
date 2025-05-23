@@ -28,19 +28,28 @@
   /* Stile per la data degli elementi */
   .vertical-timeline-element-date {
     text-align: center !important;
-    font-size: 16px !important;/* Modifica qui la dimensione del font */
+    font-size: medium;
     background-color: rgb(22,21,21);
     border-radius: 12px;
     width: 80% !important;
-  }ù
+  }
 
-  /* Stile per il titolo degli elementi */
+  /* Stile per il titolo e sottotitolo degli elementi */
   .vertical-timeline-element-title {
-    text-align: left !important;
-    font-size: 6px !important;/* Modifica qui la dimensione del font */
-    background-color: rgb(22,21,21);
-    border-radius: 12px;
-    width: 80% !important;
+    font-size: x-large;
+    text-align: left;
+    color: white;
+  }
+
+  .vertical-timeline-element-subtitle {
+    font-size: medium;
+    text-align: left;
+    color: white;
+  }
+
+  .vertical-timeline-element-paragraph {
+    font-size: medium;
+    text-align: left;
   }
   
   /* Stile per l'icona */
@@ -69,8 +78,15 @@
     height: 100%;
     background: rgb(22,21,21) !important;
   }
+  
+@media (max-width: 768px) {
 
-  .erasmus_li {
-    text-align: left;
+  .vertical-timeline-element-title {
+    font-size: medium !important;
+  }
+  .vertical-timeline-element-date {
+    font-size: medium !important;
+    text-align: left !important;
   }
   
+}

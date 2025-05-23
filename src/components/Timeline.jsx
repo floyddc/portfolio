@@ -28,21 +28,9 @@ function Timeline() {
             />
           }
         >
-          <h3 
-            className="vertical-timeline-element-title" 
-            style={{ fontSize: "23px", textAlign: "left", color: "white" }}
-          >
-            {item.title}
-          </h3>
-          <h4 
-            className="vertical-timeline-element-subtitle" 
-            style={{ textAlign: "left", color: "white" }}
-          >
-            {item.subtitle}
-          </h4>
-          <p style={{ textAlign: "left" }}>
-            {item.description}
-          </p>
+          <h3 className="vertical-timeline-element-title">{item.title}</h3>
+          <h4 className="vertical-timeline-element-subtitle">{item.subtitle}</h4>
+          <p className="vertical-timeline-element-paragraph">{item.description}</p>
         </VerticalTimelineElement>
       ))}    
       
