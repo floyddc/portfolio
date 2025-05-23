@@ -2,13 +2,12 @@
     background-color: none;
     flex-direction: column;
     width: 30vw;
-    min-height: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1vh;
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeIn 0.5s forwards;
+    z-index: 3;
 }
 
 @keyframes fadeIn {

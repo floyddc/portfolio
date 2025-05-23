@@ -1,4 +1,10 @@
 .backbutton {
+    z-index: 4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
     border-radius: 8px;
     padding: 0 1vh;
     float: left;
@@ -23,13 +29,20 @@
   }
 
 .backbutton img {
-  height: 5vh;
+  width: 60%;
+  height: auto; /* meglio auto per evitare distorsione */
+  pointer-events: none; /* evita che solo l'immagine sia cliccabile */
 }
 
 /* Stile per mobile */
 @media (max-width: 768px) {
+
+  .backbutton {
+    width: 20%;
+  }
+
   .backbutton img{
-    width: 30px;
-    height: 30px;
+    width: 60%;
+    height: 60%;
   }
 }
