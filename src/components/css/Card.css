@@ -11,7 +11,6 @@
   margin-bottom: 2vh;
   transition: transform 0.2s ease-in;
   animation: slideUpFadeIn 0.3s ease-out;
-  padding: 1vw;
   cursor: pointer;
   position: relative;
 }
@@ -20,24 +19,22 @@
   transform: scale(1.05);
 }
 
-.cardimg {
-  height: 10vh;
+/* .cardImg 8% + .cardText 80% + .a 8% */
+
+.cardImg {
   width: 8%;
-  margin-right: 2vw;
+  padding: 1%;
 }
 
-.card-content {
-  width: 50%;
+.cardText {
+  width: 80%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
 }
 
 .card .title {
-  width: 100%;
-  text-align: left;
   font-size: x-large;
-  margin-bottom: 0.5vh;
+  padding: 0.5%;
 }
 
 .card .description {
@@ -51,17 +48,18 @@
 }
 
 .card a{
-  width: 5%;
+  align-items: center;
+  width: 8%;
 }
 
 .buttonImg {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  padding: 5%;
   background-color: rgb(22, 21, 21);
   border: 3px solid #5fbfbb;
   border-radius: 12px;
-  padding: 1vh;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .buttonImg:hover {
@@ -86,7 +84,7 @@
     height: 7vh;
   }
 
-  .card .card-content {
+  .card .cardText {
   }
 
   .card .title {
