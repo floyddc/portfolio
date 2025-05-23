@@ -16,7 +16,7 @@ function Card({ title, description, image, link, buttonImg, onClick }) {
           ) : <></>}
         </div>
         {link ? (
-          <a href={link} onClick={handleButtonClick} >
+          <a href={link} target="_blank">
             <img src={buttonImg} className="buttonImg" alt="button"/>
           </a>
         ) : (
