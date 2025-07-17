@@ -22,13 +22,20 @@
     },
     {
       "id": 4,
+      "title": "SCALA RISK GAME",
+      "image": "./skills/scala.png",
+      "link": "https://github.com/floyddc/PPS-24-Risk", 
+      "buttonImg": "./github.png"
+    },
+    {
+      "id": 5,
       "title": "SCALABLE NMAP",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/SCALAbleNmap", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "BACHELOR'S NOTES",
       "image": "./unisalento_logo.png",
       "link": "https://drive.google.com/drive/folders/1ZInoQE0JaD-XnkZ8pOqliajSoniowiS6?usp=sharing", 
