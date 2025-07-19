@@ -36,7 +36,7 @@ function App() {
             }
 
             {
-              view === 'requestView' && clicked === 'REQUEST A SERVICE' && (
+              view === 'textMeView' && clicked === 'TEXT ME DIRECTLY' && (
                 <>
                   <BackButton onViewChange={handleViewChange} setClicked={() => setClicked(null)} />
                   <Form />

@@ -3,9 +3,9 @@ import Card from './Card.jsx';
 
 function Projects({ onViewChange, setClicked }) {
   const handleCardClick = (title) => {
-    if (title === "REQUEST A SERVICE") {
-      setClicked("REQUEST A SERVICE");
-      onViewChange("requestView");
+    if (title === "TEXT ME DIRECTLY") {
+      setClicked("TEXT ME DIRECTLY");
+      onViewChange("textMeView");
     }
   };
 
