@@ -14,7 +14,7 @@ function Navbar({ onViewChange }) {
 
     return (
         <nav>
-            <img className='logo' src='/logo_orizzontale_trasparente.png' alt='logo' />
+            <img className='logo' src='/personal_logo.png' alt='logo' />
             <ul>
                 <li>
                     <button onClick={() => handleClick('#skills')}>
