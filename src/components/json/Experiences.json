@@ -1,37 +1,41 @@
 [
     {
         "title": "MASTER'S DEGREE",
-        "subtitle": "University of Bologna - Cesena campus",
-        "description": "Engineering and Computer Science. Focus on programming techniques, software quality, AI and digital transformation.",
+        "subtitle1": "• Engineering & Computer Science",
+        "subtitle2": "• University of Bologna, Cesena campus",        
+        "description": "Focus on:\n• Functional, reactive, async programming\n• Software quality\n• AI\n• CybSec and cryptography basics\n• Digital transformation",
         "date": "Sep 2024 - now",
         "icon": "/unibo_logo.png"
     },
     {
         "title": "NETWORKING LESSON",
-        "subtitle": "Unisalento",
+        "subtitle2": "• University of Salento, Ecotekne campus",  
         "description": "Held a networking lesson regarding my degree thesis on the use and potential of Cisco Packet Tracer to build smart homes.",
         "date": "May '24",
         "icon": "/unisalento_logo.png"
     },
     {
         "title": "BACHELOR'S DEGREE",
-        "subtitle": "Unisalento",
-        "description": "Information Technology Engineering. Focus on Computer Science, Electronics and Telecommunication.",
+        "subtitle1": "• Information Technology Engineering",
+        "subtitle2": "• University of Salento, Ecotekne campus",
+        "description": "Focus on:\n• Imperative programming and OOP\n• Networking and Telecommunication\n• Electronics\n• Maths and Physics",
         "date": "Sep '20 - Mar '24",
         "icon": "/unisalento_logo.png"
     },
     {
-        "title": "Erasmus+ ITA team member",
-        "subtitle": "Escola Profesional 'Amar Terra Verde' (Braga) - IISS 'Enrico Fermi' (Lecce)",
+        "title": "Erasmus+",
+        "subtitle1": "• IISS E.Fermi, Lecce",
+        "subtitle2": "• EPATV, Braga",
         "description": 
-        "Took part in a European project which involved the programming and remote control of a pair of robotic arms. Used: Python, NodeRED, Firebase, Arduino, Raspberry, G-Code.",
+        "Took part in a European project which involved the programming and remote control of a pair of robotic arms. Used:\n• Python\n• NodeRED\n• Firebase\n• Arduino\n• Raspberry\n• G-Code",
         "date": "Jan '20",
         "icon": "/fermi.jpg"
     },
     {
         "title": "SCHOOL-WORK ALTERNANCE",
-        "subtitle": "Parsec 3.26 Srl",
-        "description": "Tasks performed: secretariat, remote assistance, replacement of PC components, internal network maintenance.",
+        "subtitle1": "• IISS E.Fermi, Lecce",
+        "subtitle2": "• Parsec 3.26 Srl",
+        "description": "Tasks performed:\n• Secretariat\n• Remote assistance\n• Replacement of PC components\n• Internal network maintenance.",
         "date": "Jun '18 - Jul '18",
         "icon": "/parsec.png"
     }

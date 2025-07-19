@@ -31,7 +31,6 @@ function Skills() {
                 />
               ))}
           </div>
-          <button className='cv-button' onClick={() => window.open('/cv.pdf', '_blank')}>CV</button>
         </div>
       </div>
     </div>

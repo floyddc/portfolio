@@ -29,8 +29,16 @@ function Timeline() {
           }
         >
           <h3 className="vertical-timeline-element-title">{item.title}</h3>
-          <h4 className="vertical-timeline-element-subtitle">{item.subtitle}</h4>
-          <p className="vertical-timeline-element-paragraph">{item.description}</p>
+          <h4 className="vertical-timeline-element-subtitle">{item.subtitle1}</h4>
+          <h4 className="vertical-timeline-element-subtitle">{item.subtitle2}</h4>
+          <p className="vertical-timeline-element-paragraph">
+            {item.description.split('\n').map((line, idx) => (
+              <span key={idx}>
+                {line}
+                <br />
+              </span>
+            ))}
+          </p>
         </VerticalTimelineElement>
       ))}    
       
