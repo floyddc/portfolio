@@ -15,20 +15,27 @@
     },
     {
       "id": 3,
+      "title": "CERTIFICATIONS PREP",
+      "image": "./skills/pentesting.png",
+      "link": "https://github.com/floyddc/Hacking-Cert-Prep", 
+      "buttonImg": "./github.png"
+    },
+    {
+      "id": 4,
       "title": "CUSTOM KALI LINUX",
       "image": "./kali.png",
       "link": "https://github.com/floyddc/Kali-Customization", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "SCALA RISK GAME",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/PPS-24-Risk", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "SCALABLE NMAP",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/SCALAbleNmap", 
