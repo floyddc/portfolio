@@ -1,41 +1,34 @@
 [
     {
       "id": 1,
-      "title": "TEXT ME DIRECTLY",
-      "image": "./support.png",
-      "link": "", 
-      "buttonImg": "./message.ico"
-    },
-    {
-      "id": 2,
       "title": "MASTER'S NOTES",
       "image": "./unibo_logo.png",
       "link": "https://drive.google.com/drive/folders/1P1ztyibdG5EcGGYuO-u8zRkmJmOWjjAd?usp=sharing", 
       "buttonImg": "./drive.png"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "PENTESTING WRITEUPS",
       "image": "./skills/pentesting.png",
       "link": "https://github.com/floyddc/Hacking-Cert-Prep", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "CUSTOM KALI LINUX",
       "image": "./kali.png",
       "link": "https://github.com/floyddc/Kali-Customization", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "SCALA RISK GAME",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/PPS-24-Risk", 
       "buttonImg": "./github.png"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "SCALABLE NMAP",
       "image": "./skills/scala.png",
       "link": "https://github.com/floyddc/SCALAbleNmap", 

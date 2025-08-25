@@ -18,12 +18,12 @@
   }
 
   .p1{
-    font-size: 15px;
+    font-size: medium;
     color: #5fbfbb;
   }
 
   .p2{
-    font-size: 25px;
+    font-size: medium;
     color: #5fbfbb;
     margin-left: auto; /* Sposta il testo verso destra */
   }

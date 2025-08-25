@@ -30,7 +30,9 @@ function App() {
                   <Projects onViewChange={handleViewChange} setClicked={setClicked}/>
                   <section id='skills'><Skills/></section>
                   <section id='experiences'><Timeline/></section>
-                  <section id='contacts'><Contacts/></section>
+                  <section id='contacts'>
+                    <Contacts onViewChange={handleViewChange} setClicked={setClicked}/>
+                  </section>
                 </>
               )
             }

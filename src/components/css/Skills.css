@@ -134,8 +134,7 @@
 }
 
 .skillImg {
-    width: 50%;
-    height: 60%;
+    width: 40%;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 1vw;
@@ -194,13 +193,11 @@
     }
 
     .skillImg {
-        margin: 10px;
-        width: 80%;
-        height: 80%;
+        width: 100%;
     }
 
     .skills-grid {
-        grid-template-columns: repeat(4, 1fr); /* 4 colonne */
+        grid-template-columns: repeat(5, 1fr); /* 4 colonne */
     }
 
     .cmd-title {
