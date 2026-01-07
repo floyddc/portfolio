@@ -22,9 +22,9 @@
     },
     {
       "id": 4,
-      "title": "SCALA RISK GAME",
-      "image": "./skills/scala.png",
-      "link": "https://github.com/floyddc/PPS-24-Risk", 
+      "title": "DISTRIBUTED HONEYPOT",
+      "image": "./vue.png",
+      "link": "https://github.com/floyddc/Distributed-Honeypot", 
       "buttonImg": "./github.png"
     },
     {
