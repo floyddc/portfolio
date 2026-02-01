@@ -23,7 +23,7 @@
     {
       "id": 4,
       "title": "DISTRIBUTED HONEYPOT",
-      "image": "./vue.png",
+      "image": "./skills/vue.png",
       "link": "https://github.com/floyddc/Distributed-Honeypot", 
       "buttonImg": "./github.png"
     },
