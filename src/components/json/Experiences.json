@@ -3,7 +3,7 @@
         "title": "MASTER'S DEGREE",
         "subtitle1": "• Engineering & Computer Science",
         "subtitle2": "• University of Bologna, Cesena campus",        
-        "description": "Focus on:\n• Functional, reactive, async programming\n• Software quality\n• AI\n• CybSec and cryptography basics\n• Digital transformation",
+        "description": "Focus on:\n• Software Engineering\n• AI, ML and Data Mining techniques\n• Security and Cryptographic systems\n• Web Applications\n• Project Management",
         "date": "Sep '24 - now",
         "icon": "/unibo_logo.png"
     },
@@ -18,7 +18,7 @@
         "title": "BACHELOR'S DEGREE",
         "subtitle1": "• Information Technology Engineering",
         "subtitle2": "• University of Salento, Ecotekne campus",
-        "description": "Focus on:\n• Imperative programming and OOP\n• Networking and Telecommunication\n• Electronics\n• Maths and Physics",
+        "description": "Focus on:\n• Imperative Programming and OOP\n• Networking and Telecommunication\n• Electronics\n• Maths and Physics",
         "date": "Sep '20 - Mar '24",
         "icon": "/unisalento_logo.png"
     },
