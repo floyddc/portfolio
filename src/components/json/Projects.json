@@ -8,9 +8,9 @@
     },
     {
       "id": 2,
-      "title": "PENTESTING WRITEUPS",
+      "title": "HACKING WRITEUPS",
       "image": "./skills/pentesting.png",
-      "link": "https://github.com/floyddc/Hacking-Cert-Prep", 
+      "link": "https://floyddc.github.io/Hacking-and-Other-Stuff/", 
       "buttonImg": "./github.png"
     },
     {
