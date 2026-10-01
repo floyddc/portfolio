@@ -15,16 +15,16 @@
     },
     {
         "id": 3,
+        "link": "https://github.com/floyddc/",
+        "title": "GitHub",
+        "description": "@floyddc",
+        "image": "/github.ico"
+    },
+    {
+        "id": 4,
         "link": "https://instagram.com/floyd_d.c_",
         "title": "Instagram",
         "description": "@floyd_d.c_",
         "image": "/instagram.ico"
-    },
-    {
-        "id": 4,
-        "link": "https://t.me/floyddc22",
-        "title": "Telegram",
-        "description": "@floyddc22",
-        "image": "/telegram.ico"
     }
 ]

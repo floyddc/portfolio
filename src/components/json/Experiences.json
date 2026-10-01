@@ -1,5 +1,13 @@
 [
     {
+        "title": "INTERNSHIP",
+        "subtitle1": "• AI & Cybersecurity dev intern",
+        "subtitle2": "• Cyberloop, Cesena",        
+        "description": "• Development of AI Agents for ingesting, interpreting, and classifying EDR security events.\n• Development and integration of orchestration logic with XDR APIs for automated containment execution.",
+        "date": "Sep '26 - now",
+        "icon": "cyberloop.jpg"
+    },
+    {
         "title": "MASTER'S DEGREE",
         "subtitle1": "• Engineering & Computer Science",
         "subtitle2": "• University of Bologna, Cesena campus",        
